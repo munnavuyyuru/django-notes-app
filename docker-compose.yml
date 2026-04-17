@@ -14,7 +14,7 @@ services:
       - notes-app-nw
 
   django_app:
-    image: docker pull bhargav072/notes-app:latest-v1
+    image: "docker pull bhargav072/notes-app:latest-v1"
     container_name: "django_cont"
     ports:
       - "8000:8000"
